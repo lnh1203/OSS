@@ -45,9 +45,17 @@ $ cd ..
 : 현재 폴더 상위 폴더로 이동
 : .. 자리에 <파일명> 입력 시 해당 폴더로 이동
 
+##### 원격 저장소 복제
+- $ git clone <원격저장소 주소>
+: 원격저장소와 동일한 이름으로 복제
+: 현재 폴더에 바로 복제
+
+- $ git clone <원격저장소 주소><폴더명>
+: 하부 폴더 <폴더명>으로 복제
+
+
 ##### Pull / Push
 
-- Pull : 원격 저장소 (Remote repository)로 올리기 = Uprode
+- Pull : 지역 저장소 (Local repository)로 내리기 = Downlode
 
-- Push : 지역 저장소 (Local repository)로 내리기 = Downlode
-
+- Push : 원격 저장소 (Remote repository)로 올리기 = Uprode
