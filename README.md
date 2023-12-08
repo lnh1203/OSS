@@ -8,3 +8,4 @@ github - git bash
 https://github.com/ai7dnn/2023-OSS
 
 교수님 유투브
+https://www.youtube.com/@aitcode
