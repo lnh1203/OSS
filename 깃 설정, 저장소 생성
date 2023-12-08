@@ -33,6 +33,10 @@ $git config --설정범위 설정변수 설정값
 - $ git config --global init.defaultBranch main
 : 기본 브랜치 이름을 main으로 설정
 
+##### 명령 별칭 생성
+- $ git config --global alias.<별칭> '원명령어 --긴옵션 -짧은옵션'
+: ex) git config --global alias.ss 'status -s'
+
 ##### 저장소 생성
 $ git init <파일명>
 : 현재 폴더 내에 <파일명>의 하부 폴더 생성
