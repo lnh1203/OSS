@@ -1,0 +1,17 @@
+102@109-1-10 MINGW64 ~
+$ git config --global user.name lnh1203
+
+102@109-1-10 MINGW64 ~
+$ git config --global user.email lnahyeon1022@gmail.com
+
+102@109-1-10 MINGW64 ~
+$ git config --global core.autocrlf true
+
+102@109-1-10 MINGW64 ~
+$ git config --global core.safecrlf false
+
+102@109-1-10 MINGW64 ~
+$ git config --global core.editor 'code --wait'
+
+102@109-1-10 MINGW64 ~
+$ git config --global init.defaultBranch main
