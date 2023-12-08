@@ -1,0 +1,23 @@
+### Git Branch 깃 브랜치
+: 저장소
+- 여러 개발자가 타인을 신경쓰지않고 동시에 다양한 작업을 할 수 있게 만들어주는 기능
+
+- $ git branch
+: 저장소 목록 확인
+
+- $ git branch <브랜치 이름>
+: 새로운 저장소 생성
+
+- $ git checkout -b <브랜치 이름>
+: 새로운 저장소 생성 후 이동
+: b = branch
+
+- $ git switch -c <브랜치 이름>
+: 새로운 저장소 생성 후 이동
+: c = chechkout
+
+- $ git branch -d <브랜치 이름>
+: 해당 저장소 삭제
+
+- $ git branch -D <브랜치 이름>
+: 해당 저장소 강제삭제
