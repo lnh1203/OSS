@@ -1,0 +1,49 @@
+#### 설정 명령 구조
+$git config --설정범위 설정변수 설정값
+
+##### 설정 범위
+- System
+: 모든 사용자
+
+- Global
+: 현재 사용자의 모든 저장소 (전역)
+: 해당 사용자에게만 적용되는 설정
+
+- Local
+: 현재 사용자의 현재 저장소 (지역)
+: 사용자가 사용하는 컴퓨터파일에 한정
+
+##### 깃 초기 설정 명령어 설명
+
+- $ git config --global user.name lnh1203
+: 사용자 이름 설정
+
+- $ git config --global user.email lnahyeon1022@gmail.com
+: 사용자 이메일 설정
+
+- $ git config --global core.autocrlf true
+: 줄바꿈 자동 변환, Window에서 autocrlf를 true로/MAC과 리눅스에서 input으로 설정
+
+- $ git config --global core.safecrlf false
+: 줄바꿈 안전 설정
+
+- $ git config --global core.editor 'code --wait'
+: 기본 편집기 설정
+
+- $ git config --global init.defaultBranch main
+: 기본 브랜치 이름을 main으로 설정
+
+##### 저장소 생성
+$ git init <파일명>
+: 현재 폴더 내에 <파일명>의 하부 폴더 생성
+
+$ cd .. 
+: 현재 폴더 상위 폴더로 이동
+: .. 자리에 <파일명> 입력 시 해당 폴더로 이동
+
+##### Pull / Push
+
+- Pull : 원격 저장소 (Remote repository)로 올리기 = Uprode
+
+- Push : 지역 저장소 (Local repository)로 내리기 = Downlode
+
