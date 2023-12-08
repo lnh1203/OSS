@@ -21,3 +21,15 @@
 
 - $ git branch -D <브랜치 이름>
 : 해당 저장소 강제삭제
+
+- $ git merge hotfix
+: 현재 브랜치에서 hotfix 브랜치 병합
+
+- $ git merge --no--f hotfix
+: 무조건 3-way 병합
+
+- $ git merge --ff-only hotfix
+: fast-forward인 경우에만 병합
+
+- $ git merge --squash hotfix
+: 현재 브랜치에서 커밋 하나만 생성해서 병합
