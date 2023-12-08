@@ -33,3 +33,12 @@
 
 - $ git merge --squash hotfix
 : 현재 브랜치에서 커밋 하나만 생성해서 병합
+
+- code file
+: 충돌한 파일 인지 후 수정
+
+- $ git commit -am 'msg'
+: 수정 후 다시 add, commit, 메세지 부여
+
+- $ git merge --abort
+: 충돌 이후 병합 취소
