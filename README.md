@@ -4,8 +4,8 @@ github - git bash
 
 <참고>
 
-교수님 깃허브
+교수님 github
 https://github.com/ai7dnn/2023-OSS
 
-교수님 유투브
+교수님 Youtube
 https://www.youtube.com/@aitcode
